@@ -1,0 +1,69 @@
+/* CSS reset */
+body, header, main, section, footer, h1, h2 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rule for body and images */
+body {
+    background-color: #e5e0fa;
+    font-family: "Geneva", Arial, sans-serif;
+}
+
+
+/* Style rule for the header */
+header {
+    
+	padding: 2%;
+	color: #110934;
+	text-align: center;
+    font-size: 2em;
+}
+
+/* Style rules for the main content  */
+main {
+
+	font-size: 1.25em;
+	padding: 2%;
+	background-color: #fff;
+    text-align: center;
+}
+
+#Buttons {
+    display: inline-block;
+    text-align: center;
+
+    max-width: 60%;
+}
+
+img {
+    max-width: 25%;
+    max-height: 20%;
+}
+
+
+main button {
+    font-size: 1.5em;
+    background-color: #080a7c;
+    color: #ffffff;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    max-width: 50%;
+}
+
+main button:hover{
+    background-color: #002fff;
+    color: #e3eaf8;
+}
+
+main button:active{
+    background-color: #a74a4a;
+    color: #afafaf;
+}
+
+main button:disabled{
+    background-color: #02002b;
+    color: #969696;
+}
